@@ -11,8 +11,8 @@ export function PaintAppHeader() {
                             <p className="lead fw-normal text-white-50 mb-4">Dazzle your players with a centerpiece monster for your
                                 RPG campaign, or commission a war-gaming unit today!</p>
                             <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                                <a className="btn btn-primary btn-lg px-4 me-sm-3" href="jw-paints/src/components/brushstrokes-landing-page/PaintAppHeader#features">Services</a>
-                                <a className="btn btn-outline-light btn-lg px-4" href="jw-paints/src/components/brushstrokes-landing-page/PaintAppHeader#!">Learn More</a>
+                                <a className="btn btn-primary btn-lg px-4 me-sm-3" href="jw-paints/src/components/brushstrokes-home-page/PaintAppHeader#features">Services</a>
+                                <a className="btn btn-outline-light btn-lg px-4" href="jw-paints/src/components/brushstrokes-home-page/PaintAppHeader#!">Learn More</a>
                             </div>
                         </div>
                     </div>

@@ -18,7 +18,7 @@ export function PaintAppBlogPreviewSection() {
                             <img className="card-img-top" src="https://dummyimage.com/600x350/ced4da/6c757d" alt="..."/>
                             <div className="card-body p-4">
                                 <div className="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
-                                <a className="text-decoration-none link-dark stretched-link" href="jw-paints/src/components/brushstrokes-landing-page/PaintAppBlogPreviewSection#!"><h5
+                                <a className="text-decoration-none link-dark stretched-link" href="jw-paints/src/components/brushstrokes-home-page/PaintAppBlogPreviewSection#!"><h5
                                     className="card-title mb-3">Blog post title</h5></a>
                                 <p className="card-text mb-0">Some quick example text to build on the card title and
                                     make up the bulk of the card's content.</p>
@@ -42,7 +42,7 @@ export function PaintAppBlogPreviewSection() {
                             <img className="card-img-top" src="https://dummyimage.com/600x350/adb5bd/495057" alt="..."/>
                             <div className="card-body p-4">
                                 <div className="badge bg-primary bg-gradient rounded-pill mb-2">Media</div>
-                                <a className="text-decoration-none link-dark stretched-link" href="jw-paints/src/components/brushstrokes-landing-page/PaintAppBlogPreviewSection#!"><h5
+                                <a className="text-decoration-none link-dark stretched-link" href="jw-paints/src/components/brushstrokes-home-page/PaintAppBlogPreviewSection#!"><h5
                                     className="card-title mb-3">Another blog post title</h5></a>
                                 <p className="card-text mb-0">This text is a bit longer to illustrate the adaptive
                                     height of each card. Some quick example text to build on the card title and make up
@@ -67,7 +67,7 @@ export function PaintAppBlogPreviewSection() {
                             <img className="card-img-top" src="https://dummyimage.com/600x350/6c757d/343a40" alt="..."/>
                             <div className="card-body p-4">
                                 <div className="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
-                                <a className="text-decoration-none link-dark stretched-link" href="jw-paints/src/components/brushstrokes-landing-page/PaintAppBlogPreviewSection#!"><h5
+                                <a className="text-decoration-none link-dark stretched-link" href="jw-paints/src/components/brushstrokes-home-page/PaintAppBlogPreviewSection#!"><h5
                                     className="card-title mb-3">The last blog post title is a little bit longer than the
                                     others</h5></a>
                                 <p className="card-text mb-0">Some more quick example text to build on the card title
