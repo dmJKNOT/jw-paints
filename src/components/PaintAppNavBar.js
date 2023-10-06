@@ -57,25 +57,25 @@ export function PaintAppNavBar() {
                         <li className="nav-item"><a className="nav-link" href="./">Home</a></li>
                         <li className="nav-item"><a className="nav-link" href="about">About</a></li>
                         <li className="nav-item"><a className="nav-link" href="contact">Contact</a></li>
-                        <li className="nav-item"><a className="nav-link" href="pricing.html">Pricing</a></li>
-                        <li className="nav-item"><a className="nav-link" href="faq.html">FAQ</a></li>
-                        <li className="nav-item dropdown" ref={blogDropdownRef}>
-                            <a className="nav-link dropdown-toggle" role="button" id="navbarDropdownBlog"
-                               onClick={() => toggleBlogDropdown()}>Blog</a>
-                            <ul className={showBlog? "dropdown-menu dropdown-menu-end show" : "dropdown-menu dropdown-menu-end"}>
-                                <li><a className="dropdown-item" href="blog-home.html">Blog Home</a></li>
-                                <li><a className="dropdown-item" href="blog-post.html">Blog Post</a></li>
-                            </ul>
-                        </li>
-                        <li className="nav-item dropdown" ref={portfolioDropdownRef}>
-                            <a className="nav-link dropdown-toggle" id="navbarDropdownPortfolio" role="button"
-                               onClick={() => togglePortfolioDropdown()} >Portfolio</a>
-                            <ul className={showPortfolio? "dropdown-menu dropdown-menu-end show" : "dropdown-menu dropdown-menu-end"}>
-                                <li><a className="dropdown-item" href="portfolio-overview.html">Portfolio Overview</a>
-                                </li>
-                                <li><a className="dropdown-item" href="portfolio-item.html">Portfolio Item</a></li>
-                            </ul>
-                        </li>
+                        {/*<li className="nav-item"><a className="nav-link" href="pricing.html">Pricing</a></li>*/}
+                        <li className="nav-item"><a className="nav-link" href="faq">FAQ</a></li>
+                        {/*<li className="nav-item dropdown" ref={blogDropdownRef}>*/}
+                        {/*    <a className="nav-link dropdown-toggle" role="button" id="navbarDropdownBlog"*/}
+                        {/*       onClick={() => toggleBlogDropdown()}>Blog</a>*/}
+                        {/*    <ul className={showBlog? "dropdown-menu dropdown-menu-end show" : "dropdown-menu dropdown-menu-end"}>*/}
+                        {/*        <li><a className="dropdown-item" href="blog-home.html">Blog Home</a></li>*/}
+                        {/*        <li><a className="dropdown-item" href="blog-post.html">Blog Post</a></li>*/}
+                        {/*    </ul>*/}
+                        {/*</li>*/}
+                        {/*<li className="nav-item dropdown" ref={portfolioDropdownRef}>*/}
+                        {/*    <a className="nav-link dropdown-toggle" id="navbarDropdownPortfolio" role="button"*/}
+                        {/*       onClick={() => togglePortfolioDropdown()} >Portfolio</a>*/}
+                        {/*    <ul className={showPortfolio? "dropdown-menu dropdown-menu-end show" : "dropdown-menu dropdown-menu-end"}>*/}
+                        {/*        <li><a className="dropdown-item" href="portfolio-overview.html">Portfolio Overview</a>*/}
+                        {/*        </li>*/}
+                        {/*        <li><a className="dropdown-item" href="portfolio-item.html">Portfolio Item</a></li>*/}
+                        {/*    </ul>*/}
+                        {/*</li>*/}
                     </ul>
                 </div>
 
