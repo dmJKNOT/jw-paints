@@ -10,6 +10,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import {PaintAppHomePage} from "./components/brushstrokes-home-page/PaintAppHomePage";
 import {PaintAppAboutPage} from "./components/brushstrokes-about-page/PaintAppAboutPage";
 import {PaintAppContactPage} from "./components/brushstrokes-contact-page/PaintAppContactPage";
+import {PaintAppFaqPage} from "./components/brushstrokes-faq-page/PaintAppFaqPage";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
                 <Route path="about" element={<PaintAppAboutPage />}/>
                 <Route path="contact" element={<PaintAppContactPage />}/>
                 <Route path="about" element={<PaintAppAboutPage />}/>
-                <Route path="about" element={<PaintAppAboutPage />}/>
+                <Route path="faq" element={<PaintAppFaqPage />}/>
 
                 {/*<Route index element={<Home />} />*/}
                 {/*<Route path="blogs" element={<Blogs />} />*/}

@@ -1,7 +1,7 @@
 
 export function PaintAppServicesSection() {
     return (
-        <section className="py-5" id="features">
+        <section className="py-5" id="services">
             <div className="container px-5 my-5">
                 <div className="row gx-5">
                     <div className="col-lg-4 mb-5 mb-lg-0"><h2 className="fw-bolder mb-0">Everything you need to decorate your table</h2></div>

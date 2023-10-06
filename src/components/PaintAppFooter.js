@@ -10,11 +10,9 @@ export function PaintAppFooter() {
                         <div className="small m-0 text-white">This site powered by React.js + AWS</div>
                     </div>
                     <div className="col-auto">
-                        <a className="link-light small" href="#!">Privacy</a>
+                        <a className="link-light small" target={"_blank"} href="https://github.com/dmJKNOT/jw-paints">Source Code</a>
                         <span className="text-white mx-1">&middot;</span>
-                        <a className="link-light small" href="#!">Terms</a>
-                        <span className="text-white mx-1">&middot;</span>
-                        <a className="link-light small" href="#!">Contact</a>
+                        <a className="link-light small" href="contact">Contact</a>
                     </div>
                 </div>
             </div>
