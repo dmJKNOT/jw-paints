@@ -20,7 +20,7 @@ export function PaintAppHeader() {
                                 RPG campaign, or commission a war-gaming unit today!</p>
                             <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
                                 <a className="btn btn-primary btn-lg px-4 me-sm-3" onClick={scrollToServices}>Services</a>
-                                <a className="btn btn-outline-light btn-lg px-4" href="jw-paints/src/components/brushstrokes-home-page/PaintAppHeader#!">Learn More</a>
+                                {/*<a className="btn btn-outline-light btn-lg px-4" href="jw-paints/src/components/brushstrokes-home-page/PaintAppHeader#!">Learn More</a>*/}
                             </div>
                         </div>
                     </div>

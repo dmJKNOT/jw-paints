@@ -17,7 +17,7 @@ export function PaintAppAboutOurTeam() {
                             <img className="img-fluid rounded-circle mb-4 px-4"
                                  src={josh} alt="..."/>
                             <h5 className="fw-bolder">Joshua Walters</h5>
-                            <div className="fst-italic text-muted">Founder &amp; CEO</div>
+                            <div className="fst-italic text-muted">Founder &amp; CTO</div>
                         </div>
                     </div>
                     <div className="col mb-5 mb-5 mb-xl-0">
@@ -25,7 +25,7 @@ export function PaintAppAboutOurTeam() {
                             <img className="img-fluid rounded-circle mb-4 px-4"
                                  src={destiny} alt="..."/>
                             <h5 className="fw-bolder">Destiny Walters</h5>
-                            <div className="fst-italic text-muted">CFO</div>
+                            <div className="fst-italic text-muted">CEO</div>
                         </div>
                     </div>
                     <div className="col mb-5 mb-5 mb-sm-0">
@@ -41,7 +41,7 @@ export function PaintAppAboutOurTeam() {
                             <img className="img-fluid rounded-circle mb-4 px-4"
                                  src={howl} alt="..."/>
                             <h5 className="fw-bolder">Howl Walters</h5>
-                            <div className="fst-italic text-muted">CTO</div>
+                            <div className="fst-italic text-muted">CFO</div>
                         </div>
                     </div>
                 </div>

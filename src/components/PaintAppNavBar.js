@@ -58,7 +58,7 @@ export function PaintAppNavBar() {
                         <li className="nav-item"><a className="nav-link" href="about">About</a></li>
                         <li className="nav-item"><a className="nav-link" href="contact">Contact</a></li>
                         {/*<li className="nav-item"><a className="nav-link" href="pricing.html">Pricing</a></li>*/}
-                        <li className="nav-item"><a className="nav-link" href="faq">FAQ</a></li>
+                        {/*<li className="nav-item"><a className="nav-link" href="faq">FAQ</a></li>*/}
                         {/*<li className="nav-item dropdown" ref={blogDropdownRef}>*/}
                         {/*    <a className="nav-link dropdown-toggle" role="button" id="navbarDropdownBlog"*/}
                         {/*       onClick={() => toggleBlogDropdown()}>Blog</a>*/}
