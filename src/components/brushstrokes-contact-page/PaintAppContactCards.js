@@ -5,7 +5,7 @@ export function PaintAppContactCards() {
     const scrollToMessagUs = () => {
         const element = document.getElementById('message_us_form');
         if (element) {
-            // 👇 Will scroll smoothly to the top of the next section
+            // 👇 Will scroll smoothly to the top of the given section
             element.scrollIntoView({ behavior: 'smooth' });
         }
     };
@@ -30,11 +30,13 @@ export function PaintAppContactCards() {
 
             </div>
             <div className="col">
-                <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
-                    <span className="material-symbols-outlined">shopping_cart</span>
-                </div>
-                <div className="h5">Commission Pricing</div>
-                <p className="text-muted mb-0">Get a quote for a painted piece today.</p>
+                <a onClick={scrollToMessagUs} style={{textDecoration: 'none', color: 'black'}}>
+                    <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                        <span className="material-symbols-outlined">shopping_cart</span>
+                    </div>
+                    <div className="h5">Commission Pricing</div>
+                    <p className="text-muted mb-0">Get a quote for a painted piece today.</p>
+                </a>
             </div>
             {/*<div className="col">*/}
             {/*    <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i*/}
